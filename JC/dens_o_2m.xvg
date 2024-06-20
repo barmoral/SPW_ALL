@@ -1,0 +1,96 @@
+# This file was created Fri Mar 22 08:16:57 2024
+# Created by:
+#                     :-) GROMACS - gmx density, 2022.4 (-:
+# 
+# Executable:   /curc/sw/install/gromacs/2022.4/openmpi/4.1.1/gcc/11.2.0/bin/gmx_mpi
+# Data prefix:  /curc/sw/install/gromacs/2022.4/openmpi/4.1.1/gcc/11.2.0
+# Working dir:  /projects/bamo6610/ResearchMS/GROMACS/SPW_JC2m/MD
+# Command line:
+#   gmx_mpi density -f md2m.xtc -o dens_2m.xvg -dens number -b 0 -e 20000 -d Z -s md2m.tpr -sl 72
+# gmx density is part of G R O M A C S:
+#
+# Gyas ROwers Mature At Cryogenic Speed
+#
+@    title "Partial density"
+@    xaxis  label "Average coordinate (nm)"
+@    yaxis  label "Number density (nm\S-3\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Other"
+         0.1                0
+         0.3                0
+         0.5                0
+         0.7                0
+         0.9                0
+         1.1                0
+         1.3                0
+         1.5                0
+         1.7                0
+         1.9                0
+         2.1                0
+         2.3                0
+         2.5                0
+         2.7                0
+         2.9                0
+         3.1                0
+         3.3                0
+         3.5                0
+         3.7                0
+         3.9                0
+         4.1                0
+         4.3                0
+         4.5                0
+         4.7         0.406495
+         4.9          2.43311
+         5.1          2.30867
+         5.3          2.32146
+         5.5           2.3542
+         5.7          2.30325
+         5.9          2.33924
+         6.1          2.24689
+         6.3          2.28526
+         6.5          2.28786
+         6.7          2.22802
+         6.9          2.23496
+         7.1          2.23756
+         7.3          2.20418
+         7.5          2.23539
+         7.7          2.24277
+         7.9          2.28613
+         8.1          2.30282
+         8.3          2.27117
+         8.5          2.24862
+         8.7          2.27962
+         8.9          2.28092
+         9.1          2.27529
+         9.3          2.25274
+         9.5          2.31127
+         9.7         0.377661
+         9.9                0
+        10.1                0
+        10.3                0
+        10.5                0
+        10.7                0
+        10.9                0
+        11.1                0
+        11.3                0
+        11.5                0
+        11.7                0
+        11.9                0
+        12.1                0
+        12.3                0
+        12.5                0
+        12.7                0
+        12.9                0
+        13.1                0
+        13.3                0
+        13.5                0
+        13.7                0
+        13.9                0
+        14.1                0
+        14.3                0

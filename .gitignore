@@ -2,3 +2,8 @@ CHARMM27/*.xtc
 CHARMM27/*.xtc*
 JC/*.xtc
 JC/*.xtc*
+*.npz
+*.lock
+*.xtc
+OpenFF2.1/*.xtc
+OpenFF2.1/*.xtc*
